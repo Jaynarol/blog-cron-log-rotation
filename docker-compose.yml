@@ -3,5 +3,6 @@ services:
 
     cron:
       build: ./build/cron
+      container_name: cron
       volumes:
         - ./:/my/prj
